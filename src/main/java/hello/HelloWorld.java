@@ -1,10 +1,10 @@
 package hello;
 
-import hello.stragegy_pattern.duck.DecoyDuck;
-import hello.stragegy_pattern.duck.Duck;
-import hello.stragegy_pattern.duck.MallardDuck;
-import hello.stragegy_pattern.duck.RedHeadDuck;
-import hello.stragegy_pattern.duck.RubberDuck;
+import strategy_pattern.duck.DecoyDuck;
+import strategy_pattern.duck.Duck;
+import strategy_pattern.duck.MallardDuck;
+import strategy_pattern.duck.RedHeadDuck;
+import strategy_pattern.duck.RubberDuck;
 import strategy_pattern.behavior.Squeak;
 
 public class HelloWorld {

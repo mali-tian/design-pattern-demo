@@ -1,17 +1,16 @@
-package hello.stragegy_pattern.duck;
+package strategy_pattern.duck;
 
 import strategy_pattern.behavior.FlyWithWings;
 import strategy_pattern.behavior.Quack;
 
-public class MallardDuck extends Duck {
-
-    public MallardDuck() {
+public class RedHeadDuck extends Duck {
+    public RedHeadDuck() {
         flyBehavior = new FlyWithWings();
         quackBehavior = new Quack();
     }
 
     @Override
     public void display() {
-        System.out.println("I am really a Mallard Duck");
+        System.out.println("I am red head duck");
     }
 }

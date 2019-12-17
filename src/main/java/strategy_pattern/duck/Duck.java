@@ -1,4 +1,4 @@
-package hello.stragegy_pattern.duck;
+package strategy_pattern.duck;
 
 import strategy_pattern.behavior.FlyBehavior;
 import strategy_pattern.behavior.QuackBehavior;
