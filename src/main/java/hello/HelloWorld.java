@@ -1,5 +1,8 @@
 package hello;
 
+import observer_pattern.display.CurrentConditionsDisplay;
+import observer_pattern.display.StatisticsDisplay;
+import observer_pattern.subject.WeatherData;
 import strategy_pattern.duck.DecoyDuck;
 import strategy_pattern.duck.Duck;
 import strategy_pattern.duck.MallardDuck;
@@ -51,6 +54,21 @@ public class HelloWorld {
         redHeadDuck.setQuackBehavior(new Squeak());
         System.out.println(redHeadDuck.display());
         System.out.println(redHeadDuck.performQuack());
+
+
+        System.out.println("--------------------------------------------");
+
+        WeatherData weatherData = new WeatherData();
+        StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+
+        System.out.println(statisticsDisplay.display());
+        System.out.println(currentConditionsDisplay.display());
+
+        weatherData.setMeasurements(50, 33, 7000);
+
+        System.out.println(statisticsDisplay.display());
+        System.out.println(currentConditionsDisplay.display());
 
     }
 }
