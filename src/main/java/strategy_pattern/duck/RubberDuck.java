@@ -10,7 +10,7 @@ public class RubberDuck extends Duck {
         quackBehavior = new Squeak();
     }
     @Override
-    public void display() {
-        System.out.println("I am the rubber duck");
+    public String display() {
+        return "I am the rubber duck";
     }
 }

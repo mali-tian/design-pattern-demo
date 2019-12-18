@@ -3,7 +3,7 @@ package strategy_pattern.behavior;
 public class FlyWithWings implements FlyBehavior {
 
     @Override
-    public void fly() {
-        System.out.println("I can Fly");
+    public String fly() {
+        return "I can Fly";
     }
 }
