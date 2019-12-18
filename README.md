@@ -1,4 +1,4 @@
-![](https://github.com/mali-tian/design-pattern-demo/workflows/Unit%20Test/badge.svg?branch=master)
+![](https://github.com/mali-tian/design-pattern-demo/workflows/Unit%20Test/badge.svg)
 
 # Demos of Design Pattern
 
