@@ -1,4 +1,4 @@
-![](https://github.com/mali-tian/design-pattern-demo/workflows/.github/workflows/gradle.yml/badge.svg)
+![](https://github.com/mali-tian/design-pattern-demo/.github/workflows/gradle.yml/badge.svg)
 
 # Demos of Design Pattern
 
