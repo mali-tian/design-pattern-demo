@@ -42,7 +42,7 @@ public class MallardDuckTest {
     }
 
     @Test
-    public void display() {
+    public void should_show_duck_type_when_display() {
         assertEquals("I am really a Mallard Duck", mallardDuck.display());
     }
 }
