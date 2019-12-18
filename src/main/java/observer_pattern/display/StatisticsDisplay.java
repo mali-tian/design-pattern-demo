@@ -1,16 +1,16 @@
 package observer_pattern.display;
 
 import observer_pattern.observer.Observer;
-import observer_pattern.subject.WeatherData;
+import observer_pattern.subject.Subject;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
 
     private float temperature;
     private float humidity;
     private float pressure;
-    private WeatherData weatherData;
+    private Subject weatherData;
 
-    public StatisticsDisplay(WeatherData wd) {
+    public StatisticsDisplay(Subject wd) {
         this.weatherData = wd;
         weatherData.registerObserver(this);
     }
