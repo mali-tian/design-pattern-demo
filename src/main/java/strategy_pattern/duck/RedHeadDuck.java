@@ -10,7 +10,7 @@ public class RedHeadDuck extends Duck {
     }
 
     @Override
-    public void display() {
-        System.out.println("I am red head duck");
+    public String display() {
+        return "I am red head duck";
     }
 }

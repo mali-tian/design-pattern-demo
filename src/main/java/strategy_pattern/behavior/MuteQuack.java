@@ -3,7 +3,7 @@ package strategy_pattern.behavior;
 public class MuteQuack implements QuackBehavior {
 
     @Override
-    public void quack() {
-       System.out.println("I can not quack");
+    public String quack() {
+       return "I can not quack";
     }
 }

@@ -16,41 +16,41 @@ public class HelloWorld {
         System.out.println("--------------------------------------------");
 
         Duck mallardDuck = new MallardDuck();
-        mallardDuck.display();
-        mallardDuck.swim();
-        mallardDuck.performFly();
-        mallardDuck.performQuack();
+        System.out.println(mallardDuck.display());
+        System.out.println(mallardDuck.swim());
+        System.out.println(mallardDuck.performFly());
+        System.out.println(mallardDuck.performQuack());
 
         System.out.println("--------------------------------------------");
 
         Duck redHeadDuck = new RedHeadDuck();
-        redHeadDuck.display();
-        redHeadDuck.swim();
-        redHeadDuck.performFly();
-        redHeadDuck.performQuack();
+        System.out.println(redHeadDuck.display());
+        System.out.println(redHeadDuck.swim());
+        System.out.println(redHeadDuck.performFly());
+        System.out.println(redHeadDuck.performQuack());
 
         System.out.println("--------------------------------------------");
 
         Duck rubberDuck = new RubberDuck();
-        rubberDuck.display();
-        rubberDuck.swim();
-        rubberDuck.performFly();
-        rubberDuck.performQuack();
+        System.out.println(rubberDuck.display());
+        System.out.println(rubberDuck.swim());
+        System.out.println(rubberDuck.performFly());
+        System.out.println(rubberDuck.performQuack());
 
         System.out.println("--------------------------------------------");
 
         Duck decoyDuck = new DecoyDuck();
-        decoyDuck.display();
-        decoyDuck.swim();
-        decoyDuck.performFly();
-        decoyDuck.performQuack();
+        System.out.println(decoyDuck.display());
+        System.out.println(decoyDuck.swim());
+        System.out.println(decoyDuck.performFly());
+        System.out.println(decoyDuck.performQuack());
 
         System.out.println("--------------------------------------------");
 
 //      make red head duck squeak
         redHeadDuck.setQuackBehavior(new Squeak());
-        redHeadDuck.display();
-        redHeadDuck.performQuack();
+        System.out.println(redHeadDuck.display());
+        System.out.println(redHeadDuck.performQuack());
 
     }
 }

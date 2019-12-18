@@ -10,17 +10,17 @@ public abstract class Duck {
     void Duck() {
     }
 
-    public abstract void display();
-    public void performFly() {
-        flyBehavior.fly();
+    public abstract String display();
+    public String performFly() {
+        return flyBehavior.fly();
     }
 
-    public void performQuack() {
-        quackBehavior.quack();
+    public String performQuack() {
+       return quackBehavior.quack();
     }
 
-    public void swim() {
-        System.out.println("All ducks float, even decoys!");
+    public String swim() {
+       return "All ducks float, even decoys!";
     }
 
     public void setFlyBehavior(FlyBehavior fb) {
