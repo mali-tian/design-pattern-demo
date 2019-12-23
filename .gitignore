@@ -7,3 +7,8 @@ build
 
 # idea configuration
 .idea
+
+.classpath
+.project
+.settings/*
+bin/
